@@ -14,7 +14,7 @@ const PropertyCard = ({ property }) => {
         <h3 className="text-xl font-semibold">{property.title}</h3>
         <p className="text-gray-600 mt-2">{property.description}</p>
         <div className="mt-4 flex justify-between items-center">
-          <span className="text-lg font-bold">${property.price}</span>
+          <span className="text-lg font-bold">₹{property.price}</span>
           <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">
             {property.category}
           </span>
